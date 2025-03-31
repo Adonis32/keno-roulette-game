@@ -1,0 +1,64 @@
+/* Stilet e përgjithshme */
+body {
+    background-color: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Muzika dhe animimi */
+audio {
+    display: none;
+}
+
+/* Seksioni i regjistrimit */
+.auth-container {
+    padding-top: 50px;
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+}
+
+button {
+    padding: 15px 30px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+/* Seksioni i lojërave */
+.game-container {
+    padding-top: 50px;
+}
+
+h1.game-title {
+    font-size: 3rem;
+    color: #f00;
+}
+
+#adrenaline {
+    background-color: red;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#adrenaline:hover {
+    background-color: darkred;
+}

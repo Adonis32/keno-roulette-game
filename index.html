@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fati i Madh - Keno dhe Roulette</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Muzika e Adrenalinës -->
+    <audio autoplay loop>
+        <source src="adrenaline-music.mp3" type="audio/mp3">
+    </audio>
+
+    <!-- Seksioni i Regjistrimit të Përdoruesve -->
+    <div class="auth-container">
+        <h2 class="text-center">Regjistrohu për të luajtur!</h2>
+        <form id="login-form">
+            <input type="text" id="username" placeholder="Emri juaj i përdoruesit" required />
+            <input type="password" id="password" placeholder="Fjalëkalimi" required />
+            <button type="submit" class="adrenaline">Kyçu</button>
+        </form>
+        <p>Ose, <a href="#" class="register-link">Regjistrohu</a></p>
+    </div>
+
+    <!-- Seksioni i Lojërave -->
+    <div class="game-container" style="display: none;">
+        <h1 class="game-title">Mirësevini në Fatin e Madh!</h1>
+        <div id="keno-game">
+            <h2>Keno</h2>
+            <button onclick="playKeno()">Luo Keno</button>
+        </div>
+        <div id="roulette-game" class="mt-10">
+            <h2>Roulette</h2>
+            <button onclick="playRoulette()">Luo Roulette</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
